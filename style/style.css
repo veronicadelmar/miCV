@@ -1,0 +1,236 @@
+/* estilos para toda la web*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* estilos para la foto de perfil y el banner general */
+header .fotoDePerfil{
+    border-radius: 100%;
+    height: 18rem;
+}
+
+header{
+    background-color: #fa8ea9;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 10rem 1rem 10rem;
+    border-bottom: solid 0.25em black;
+}
+
+/* estilos para los datos personales */
+.icon{
+    width: 2rem;
+    margin-right: 1em;
+}
+
+h1{
+    margin-bottom: 0.5rem;
+}
+
+h2{
+    text-align: center;
+    font-style: italic;
+}
+
+.ing{
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-weight: 500;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #2658fc;
+}
+
+/* estilos para las secciones */
+
+.section{
+    padding: 1rem 18rem 1rem 15rem; /* editar */
+    border-bottom: solid 0.15em black;
+}
+
+.par{
+    font-size: larger;
+    margin-bottom: 0.8rem;
+    text-align: justify;
+}
+
+h4{
+    font-size: small;
+    font-style: italic;
+    margin-right: 0.5em;
+}
+
+/* cursos y capacitaciones */
+
+.cursos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* skill - perfil profesional */
+
+.grid{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+
+.icons{
+    width: 1rem;
+    margin-right: 0.2em;
+}
+
+/* experiencia laboral */
+
+.job{
+    margin-bottom: 1.5rem;
+}
+
+li{
+    margin-left: 1rem;
+}
+
+
+/* --------------------------RESPONSIVE--------------------------- */
+
+
+/* Celulares nuevas horizontales u tabletas */
+@media screen and (max-width:1200px){
+
+    header .fotoDePerfil{
+        height: 15rem;
+        display: block;
+        margin: auto 1rem;
+    }
+    
+    header{
+        padding: 1rem; 
+    }
+
+    .icon{
+        width: 1.5rem;
+        margin-right: 0.5em;
+    }
+
+    /* estilos para los datos personales */
+
+h1{
+    font-size: x-large;
+    text-align: center;
+}
+
+h2{
+    font-size: large;
+}
+
+/* estilos para las secciones */
+
+.section{
+    padding: 1rem 1rem 1rem 1rem;
+    border-bottom: solid 0.15em black;
+}
+
+.par{
+    font-size: large;
+    margin-bottom: 0.8rem;
+    text-align: justify;
+}
+
+}
+
+
+
+/*Pantalla Vertical*/
+/* Celulares Nuevos*/
+@media (max-width: 576px) and (orientation:portrait){
+    
+    header{
+        display: block;
+    }
+
+    header .fotoDePerfil{
+        height: 13em;
+        display: block;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+
+    /* estilos para los datos personales */
+.icon{
+    width: 1rem;
+    margin-right: 0.5em;
+}
+
+h1{
+    font-size: x-large;
+    text-align: center;
+}
+
+h2{
+    font-size: large;
+}
+h3{
+    font-size: medium;
+}
+
+/*skill*/
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+/* estilos para las secciones */
+
+.section{
+    padding: 1rem 1rem 1rem 1rem; /* editar */
+    border-bottom: solid 0.15em black;
+}
+
+.par{
+    font-size: medium;
+    margin-bottom: 0.8rem;
+    text-align: justify;
+}
+
+h4{
+    font-size: small;
+    font-style: italic;
+    margin-right: 0.5em;
+}
+
+.cursos{
+    display: grid;
+    grid-template-columns: 50% 50%;    
+    text-align: center;
+
+}
+
+.cap{
+    margin-bottom: 1rem;
+}
+
+}
+
+
+
+
+
